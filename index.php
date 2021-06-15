@@ -13,6 +13,8 @@ if( defined('GIT_MODULE_FREE') )
 
 define('GIT_MODULE_FREE', 'git_module_free_version');
 
+if( !class_exists( 'WebAppickGMF' ) ):
+
 class WebAppickGMF{
 
     public function __construct()
@@ -54,3 +56,5 @@ class WebAppickGMF{
 
 global $WebAppickGMF;
 $WebAppickGMF = new WebAppickGMF();
+
+endif;
