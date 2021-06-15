@@ -46,7 +46,7 @@ class WebAppickGMF{
      * */
     public function main_menu_page(){
 
-        $output = apply_filters('webappick_menu_page', 'WebAppick GitModule Free');
+        $output = apply_filters('webappick_menu_page', 'WebAppick GitModule Free Plugin');
 
         esc_html_e($output);
 
